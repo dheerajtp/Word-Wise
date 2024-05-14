@@ -88,6 +88,80 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  phonetic: {
+    fontSize: 16,
+    marginBottom: 5,
+  },
+  phoneticContainer: {
+    marginBottom: 10,
+  },
+  phoneticText: {
+    fontSize: 16,
+  },
+  phoneticAudio: {
+    fontSize: 16,
+    color: "blue",
+    textDecorationLine: "underline",
+  },
+  phoneticSourceUrl: {
+    fontSize: 14,
+    color: "gray",
+  },
+  phoneticLicenseName: {
+    fontSize: 14,
+  },
+  phoneticLicenseUrl: {
+    fontSize: 14,
+    color: "blue",
+    textDecorationLine: "underline",
+  },
+  meaningContainer: {
+    marginBottom: 15,
+  },
+  definitionContainer: {
+    marginBottom: 10,
+  },
+  synonymsContainer: {
+    marginTop: 5,
+  },
+  synonymsLabel: {
+    fontWeight: "bold",
+    marginBottom: 3,
+  },
+  synonyms: {
+    fontSize: 16,
+    lineHeight: 20,
+  },
+  antonymsContainer: {
+    marginTop: 5,
+  },
+  antonymsLabel: {
+    fontWeight: "bold",
+    marginBottom: 3,
+  },
+  antonyms: {
+    fontSize: 16,
+    lineHeight: 20,
+  },
+  example: {
+    fontSize: 16,
+    fontStyle: "italic",
+    marginTop: 5,
+  },
+  licenseName: {
+    fontSize: 14,
+    marginTop: 10,
+  },
+  licenseUrl: {
+    fontSize: 14,
+    color: "blue",
+    textDecorationLine: "underline",
+  },
+  sourceUrls: {
+    fontSize: 14,
+    color: "gray",
+    marginTop: 5,
+  },
 });
 
 export default styles;

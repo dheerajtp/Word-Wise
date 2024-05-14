@@ -3,11 +3,14 @@ import { API_KEY } from "../configurations";
 
 const getWordMeaning = async ({ queryKey }) => {
   try {
-    const response = await axios.get(
-      `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/${queryKey[1]}?key=${API_KEY}`
-    );
+    //V3
+    // const response = await axios.get(
+    //   `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/${queryKey[1]}?key=${API_KEY}`
+    // );
 
-    console.log(response.data, "get weather");
+    const response = await axios.get(
+      `https://api.dictionaryapi.dev/api/v2/entries/en/${queryKey[1]}`
+    );
     return response.data;
   } catch (error) {
     console.log("inside error");
